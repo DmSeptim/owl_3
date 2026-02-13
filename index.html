@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+    margin:0;
+}
+
+.conteiner{
+ 
+  background-image: url("https://allwebs.ru/images/2026/02/05/bfaa593604339db3106b5b84c792f215.jpg");
+ 
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+    color: #fff;
+    text-align: right;
+    font-size: 30px;
+}
+
+.img{
+  margin: auto;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+  background-image: url(https://allwebs.ru/images/2026/02/13/68382dfe427e01eab247fabc95dd296b.jpg);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text{
+  max-width: 500px;
+  color: white;
+  background-color: rgb(0%, 0%, 0%, 0.7);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 46px;
+}
+    
+      .text {
+    opacity: 0; /* Изначально текст невидим */
+    animation: fadeIn 1s forwards; /* Анимация: имя, длительность, фиксация */
+    animation-delay: 2s; /* Задержка перед началом */
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* В конце анимации текст виден */
+    }
+  }
+    
+        .text--mod{
+         opacity: 0; /* Изначально текст невидим */
+    animation: fadeIn 1s forwards; /* Анимация: имя, длительность, фиксация */
+    animation-delay: 3s; /* Задержка перед началом */
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1; /* В конце анимации текст виден */
+    }
+    }
+</style>
+</head>
+<body>
+    
+  <div class="conteiner">
+        <h3 class="name">Ночь большой совы</h3>
+    <div class="img">
+
+    <div>
+   
+      <p class="text"> УХУ</p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
+
